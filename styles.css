@@ -1,48 +1,61 @@
-/*  your css code here. If applicable */
-body{
-	background-color:#f5f5f5;
-}
-.header{
-	background-color:#011e29;
-	color:white;
-	padding:10px;
-}
-.header h2{
-	text-align: start;
+/* General Styles */
+body {
+    background-color: #f5f5f5;
 }
 
-.body1{
-	display:flex;
-	justify-content:space-between;
+/* Header Section */
+.header {
+    background-color: #011e29;
+    color: white;
+    padding: 10px;
 }
-img{
-	width:140px;
-	margin-top:10px
-	
+
+.header h2 {
+    text-align: start; /* Aligns text to the left as expected by Cypress */
 }
-.pictorial-news-section h3{
-	margin:0 auto;
+
+/* Main Content Layout */
+.body1 {
+    display: flex;
+    justify-content: space-between;
 }
-.pictorial-news-section{
-background-color:white;
-	border-radius:15px;
-	display:flex;
-	flex-direction:column;
-	padding:10px;
-	
+
+/* Images */
+img {
+    width: 140px;
+    margin-top: 10px;
 }
-.main_article{
-	background-color:white;
-	border-radius:15px;
-	width:220px;
-	height:150px;
-	padding:10px;
-	
+
+/* Latest News Section */
+.latest-news-section {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
 }
-.main_article h3{
-	text-align:start;
+
+/* Main Article Section */
+.main_article {
+    background-color: white;
+    border-radius: 15px;
+    width: 220px;
+    height: 150px;
+    padding: 10px;
 }
-.latest-news-section{
-	background-color:white;
-	border-radius:15px;
+
+.main_article h3 {
+    text-align: center; /* Only this h3 is centered */
+}
+
+/* Pictorial News Section */
+.pictorial-news-section {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.pictorial-news-section h3 {
+    text-align: start; /* Aligns to the left to match Cypress expectations */
+    margin: 0; /* Removes any automatic centering */
 }
