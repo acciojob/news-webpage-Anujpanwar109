@@ -8,7 +8,7 @@ body{
 	padding:10px;
 }
 .header h2{
-	text-align: center;
+	text-align: start;
 }
 
 .body1{
@@ -20,7 +20,7 @@ img{
 	margin-top:10px
 	
 }
-h3{
+.pictorial-news-section h3{
 	margin:0 auto;
 }
 .pictorial-news-section{
@@ -40,7 +40,7 @@ background-color:white;
 	
 }
 .main_article h3{
-	text-align: center;
+	text-align:start;
 }
 .latest-news-section{
 	background-color:white;
